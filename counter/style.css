@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    font-size: 62.5%;
+text-align: center;
+
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 2rem;
+    margin-bottom: 40vh;
+}
+h1,h2{
+    font-size: 2rem;
+    
+}
+main button{
+    background-color: aqua;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 1rem;
+    font-family: inherit;
+}
+.signDiv{
+display: flex;
+gap: 1rem;
+}
+.signDiv button{
+    width: 3rem;
+    max-width: 100%;
+}
+main label{
+    font-size: 1rem;
+
+}
+main input{
+    padding: .4rem;
+}
+
+footer{
+    font-size: .8rem;
+}
+footer span{
+    color: red;
+    font-size: 1.2rem;
+
+}
