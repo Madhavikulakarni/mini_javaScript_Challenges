@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    font-size: 62.5%;
+text-align: center;
+
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 2rem;
+    margin-bottom: 40vh;
+}
+main input{
+    width: 1200px;
+    max-width: 100%;
+    padding: 1rem;
+}
+.box{
+    background-color: bisque;
+    width: 1200px;
+    max-width: 100%;
+    padding: 1.4rem;
+    /* font-size: 1rem; */
+    position: relative;
+}
+.labelClass{
+    position: absolute;
+    top: -30%;
+    left: 2%;
+    background-color: #000;
+    color: #fff;
+    padding: .4rem;
+    font-style: .2rem;
+}
