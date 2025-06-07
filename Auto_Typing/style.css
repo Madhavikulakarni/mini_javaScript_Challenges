@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 62.5%;
+  text-align: center;
+}
+main {
+  height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+span{
+  color: brown;
+  display: inline-flex;
+  align-items: center;
+}
+span::after{
+  content: "";
+  background-color: brown;
+  width: .2rem;
+  height: 2rem;
+  margin-left: 4px;
+}
+h1,h2{
+  font-size: 2rem;
+}
+
+footer {
+  font-size: 0.8rem;
+}
+footer span {
+  color: red;
+  font-size: 1.2rem;
+}
