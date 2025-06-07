@@ -32,7 +32,7 @@ function camelCase(str){
 
 function pascalCase(str){
     const camel = str.split(" ")
-    const finalArray = camel.map((word,i) =>{
+    const finalArray = camel.map((word,i) =>{ 
         return capitalize(word)
     })
     return finalArray.join("")
